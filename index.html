@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emi Anyakpor Jr.</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <nav id="nvBar">
+      <a class="section" href="#">Home</a>
+      <a class="section" href="#about">About</a>
+      <a class="section" href="#skills">Skills</a>
+      <a class="section" href="#experience">Experience</a>
+      <a class="section" href="#projects">Projects</a>
+    </nav>
+    <div id="about">
+      <h1>Emi Anyakpor Jr.</h1>
+      <h3>Aspiring Software Engineer</h3>
+      <p>I'm a computer scienece student at California State University Northridge.
+        I enjoy problem solving and building software. I also enjoy the game of basketball.
+      </p>
+      <button id="resumeBtn">resume</button>
+    </div>
+    <h1>My Skills</h1>
+    <div id="skills">
+      <ul>
+        <li class="skillSection">Python</li>
+        <li class="skillSection">Java</li>
+        <li class="skillSection">Typescript</li>
+        <li class="skillSection">Html/CSS</li>
+        <li class="skillSection">Vercel</li>
+        <li class="skillSection">PostgressSQL</li>
+        <li class="skillSection">JUnit</li>
+        <li class="skillSection">Spring Boot</li>
+        <li class="skillSection">Django</li>
+        <li class="skillSection">Swift</li>
+
+        <!-- Duplicate list for smooth infinite loop -->
+        <li class="skillSection">Python</li>
+        <li class="skillSection">Java</li>
+        <li class="skillSection">Typescript</li>
+        <li class="skillSection">Html/CSS</li>
+        <li class="skillSection">Vercel</li>
+        <li class="skillSection">PostgressSQL</li>
+        <li class="skillSection">JUnit</li>
+        <li class="skillSection">Spring Boot</li>
+        <li class="skillSection">Django</li>
+        <li class="skillSection">Swift</li>
+  </ul>
+      </ul>
+    </div>
+    <h1 class="headFormatter">Experience</h1>
+    <div id="experience">
+      <div id="Experience1">
+        <h3>Amazon</h3>
+        <h3>May 2025 - August 2025</h3>
+        <ul>
+          <li>migrated several APIs into 2 Generic APIs</li>
+          <li>Created numerous technical design documents</li>
+          <li>Demo'd project outcome to 100+ mid-level and Senior Engineers</li>
+          <img class="carousel_image" src="./assets/amazon.jpeg" alt="amazon" width="200" height="200"></img>
+        </ul>
+      </div>
+      <div id="Experience2">
+        <h3>NASA</h3>
+        <h3>September 2024 - December 2024</h3>
+        <ul>
+          <li>Led iOS development for a NASA funded research project</li>
+          <li>Deployed prototype app to 20+ CSUN soccer players</li>
+          <li>acquired health data through firebase and Swift</li>
+        </ul>
+        <img class="carousel_image" src="./assets/arcs_logo.jpeg" alt="msft" width="50%" height="50%"/>
+      </div>
+      <div id="Experience3">
+        <h3>Microsoft</h3>
+        <h3>May 2023 - August 2023</h3>
+        <ul>
+          <li>Developed search suggestion API on the .NET framework in C#</li>
+          <li>kept a code coverage of 98% tests when writing unit tests in C#</li>
+          <li>presented project communicating effective the development of my project</li>
+        </ul>
+        <img class="carousel_image" src="./assets/microsoft.jpeg" alt="msft" width="50%" height="200"/>
+      </div>
+      <div id="Experience4">
+        <h3>Code Ninjas</h3>
+        <h3>November 2021 - June 2022</h3>
+        <ul>
+          <li>Taught 25 students programming fundamentals in daily classes</li>
+          <li>Developed games in JavaScript, Scratch, and Python</li>
+        </ul>
+        <img class="carousel_image" src="./assets/code_ninjas.jpg" alt="sensei" width="50%" height="200"/>
+      </div>
+    </div>
+    <h1>Projects</h1>
+    <div id="projects">
+      <div id="project1">
+        <div class="flip-card-front">
+          <h3>ADHD Android App</h3>
+          <h3>September 2024</h3>
+          <ul>
+            <li> Led a team of 6 developers to build a full-scale Android app in Kotlin for CSUN’s Hackathon</li>
+            <li> Designed the app wireframe using Figma</li>
+            <li>Developed an ADA-compliant, gamified productivity app for ADHD-I</li>
+            <li>Won 3rd out of 60+ individuals</li>
+          </ul>
+        </div>
+        <div class="flip-card-back">
+          <video class="flip_image" src="./assets/demo.mp4" height="500" width="500" controls autoplay muted></video>
+        </div>
+      </div>
+    
+    <div id="project2">
+      <div class="flip-card-front">
+        <h3>Software Developers Club</h3>
+        <h3>March 2023 - Present</h3>
+        <h4><strong>Founder</strong></h4>
+        <ul>
+          <li> Organize and plan regular events, including 10+ hackathon trips, weekly code sessions, and 30+ resume reviews</li>
+          <li>Manage and cultivate a Discord community of 200+ members</li>
+        </ul>
+      </div>
+      <div class="flip-card-back">
+        <img class="flip_image" src="./assets/sdc.jpeg" height="500px" width="500px">
+        <img class="flip_image" src="./assets/sdc_meeting.jpeg" height="500px" width="700px">
+      </div>
+  </div>
+</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+  <link href="styles/style.css" type="text/css" rel="stylesheet">
+</html>
